@@ -30,7 +30,6 @@ def multProc(targetin, scanip, port):
     p.start()
     return
 
-
 def dnsEnum(ip_address, port):
     print "INFO: Detected DNS on " + ip_address + ":" + port
     if port.strip() == "53":
