@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Python 2.7
+
 import sys
 import os
 import subprocess
