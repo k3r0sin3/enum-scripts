@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Python 2.7
+
 import subprocess
 import multiprocessing
 from multiprocessing import Process, Queue
