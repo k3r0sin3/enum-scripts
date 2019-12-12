@@ -157,7 +157,7 @@ print "####        http, ftp, dns, ssh, snmp, smtp, ms-sql     ####"
 print "############################################################"
  
 if __name__=='__main__':
-   f = open('results/exam/targets.txt', 'r') # CHANGE THIS!! grab the alive hosts from the discovery scan for enum
+   f = open('./targets.txt', 'r') # CHANGE THIS!! grab the alive hosts from the discovery scan for enum
    for scanip in f:
        jobs = []
        p = multiprocessing.Process(target=nmapScan, args=(scanip,))
