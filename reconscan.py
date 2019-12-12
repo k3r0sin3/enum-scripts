@@ -10,6 +10,7 @@ import fileinput
 import atexit
 import sys
 import socket
+from enum import Enum
 
 # Todo:
 # turn the enum into an actual enum
@@ -28,7 +29,7 @@ start = time.time()
 
 ip_output_dir = ""
 
-class bcolors:
+class bcolors(Enum):
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
     OKGREEN = '\033[92m'
