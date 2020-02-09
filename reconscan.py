@@ -15,15 +15,13 @@ from enum import Enum
 # Todo:
 # turn the enum into an actual enum
 # HTTP Scan should be added to the doc
-
 # syn scan doesn't print it's command line
-
 # nikto and dirb can both run on HTTP and HTTPS - should probably modfify them to do so in template
 # Why isn't smtp being printed into the file?
-
 # Add mysql nmap-script
 # Change replace to sed:
 # sed 's|literal_pattern|replacement_string|g'
+# Line 473 - file paths need to be fixed
 
 start = time.time()
 
